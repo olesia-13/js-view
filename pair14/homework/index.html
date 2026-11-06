@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class = "course-card" id = "card">
+    <p class = "tag">Налаштування</p>
+    <h1>Мій профіль</h1>
+    <p id = "welcome">Вітаємо, гостю!</p>
+
+    <label for = "studentsName">Ваше ім'я</label>
+    <input id = "studentsName" type = "text" placeholder = "Введіть ім'я">
+
+    <button id = "saveBtn">Підтвердити</button>
+    <p id = "status">Ім'я ще не підтверджено</p>
+
+    <label for = "theme">Тема</label>
+    <select id = "theme">
+        <option value = "light">Світла</option>
+        <option value = "pink">Рожева</option>
+        <option value = "dark">Темна</option>
+    </select>
+
+    <button id = "detailBtn" class = "secondary">Показати інформацію</button>
+    <p class = "hidden" id = "details">Це ваш особистий профіль. Тут можна змінювати ім'я та налаштовувати зовнішній вигляд сторінки.</p>
+
+</main>
+
+<script src = "script.js" defer></script>
+</body>
+</html>
